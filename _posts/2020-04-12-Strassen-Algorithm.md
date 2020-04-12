@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Strassen Algorithm"
+use_math: true
 date: 2020-04-12 05:37 +09:00
 ---
 
