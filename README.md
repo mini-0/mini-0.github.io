@@ -12,7 +12,7 @@ X<sub>10kopt</sub>는 100*k세대 후의 최적 개체, α는 주밍 인자, N<s
 또한 이 개체를 중심으로 탐색 영역을 X<sub>kopt</sub> - α<sup>k</sup>/2 , X<sub>kopt</sub> + α<sup>k</sup>/2 로 좁힌다.
 위 과정을 해가 수렵할 때까지 반복 진행한다.  
 
-
+![fig1](https://user-images.githubusercontent.com/63089780/85835884-bff7f380-b7d0-11ea-9f06-8a6d6f6e05a0.PNG)  
 
 최종신뢰도(P<sup>GA</sup><sub>final</sub>)는 주밍 인자와 주밍 구간에 떨어지는 개체수를 설계 변수로 한다.  
 (1) P<sup>GA</sup><sub>final</sub> = [1 - (1 - α<sup>N<sub>uar</sub></sup> * β<sub>avg</sub>)<sup>N<sub>sp</sub></sup>  
@@ -33,10 +33,10 @@ N<sub>sp</sub> : number of function evaluations of sub -generations in a zooming
 설계변수가 2개인 경우에 적용해보자.  
 
 Shubert  
-
-
-
+![shubert](https://user-images.githubusercontent.com/63089780/85835906-c6866b00-b7d0-11ea-8a0e-c486086f758f.PNG)  
 
 파라미터 최적화를 수행하면, N<sub>zoom</sub> = 6일 경우, α = 0.047이고, r = 0.95이다. 
 Fig. 3은 위 함수에 대해서 주밍 인자 α의 변화에 따른 목적 함수의 추이이다. 최적치를 나타낸 α의 범위는 0.02~0.08 사이이며, 
 최적화 후 α의 값이 이 범위에 포함된다.
+
+![fig3](https://user-images.githubusercontent.com/63089780/85835897-c38b7a80-b7d0-11ea-87e0-5d20705d2587.PNG)
